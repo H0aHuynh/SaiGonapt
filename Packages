@@ -15,19 +15,59 @@ Author: Ryan Nair
 Icon: file:///Library/PreferenceBundles/CylinderSettings.bundle/Icon@3x.png
 Name: Cylinder Reborn
 
-Package: fixsudo
-Version: 1.1
+Package: ellekit
+Version: 1.2
 Architecture: iphoneos-arm64
-Maintainer: Hoà Huỳnh
-Depends: firmware (>= 15.2)
-Filename: debs/fixsudo_1.1_iphoneos-arm64.deb
-Size: 43068
-MD5sum: be8fb6aa952f30f7e6e1c0ac027777fa
-SHA1: 297926f9996403585c9d190d9edcbe22dd8e922e
-SHA256: f8441aaa5bb8bd1eef6d73b8d7913dba694b0f8ce8a5c66a68c1d724c8e135dd
-Section: System
-Priority: standard
-Description: Fix setuid SaiGon15.x
-Author: Hoà Huỳnh
-Name: Fix sudo
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: debs/ellekit_1.2_iphoneos-arm64.deb
+Size: 327608
+MD5sum: d1b479b2cf448a97429e7efab474fdc1
+SHA1: 1972b6031612a584309f44b5624b0f2b4fad8ddb
+SHA256: 791b4003677353dc8894cb572a6dfe61c642621c60cb16a0a95f8223924ed8eb
+Section: Tweak Injection
+Priority: optional
+Description: ElleKit tweak injection libraries and loader
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit
+
+Package: sileo
+Version: 2.6
+Architecture: iphoneos-arm64
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: debs/sileo.deb
+Size: 2906648
+MD5sum: 70399404e5512dc8d539e36c7db7cff7
+SHA1: 457de51930b35b6c8cacbce76e4c987a070ba917
+SHA256: 167b100a61b3b970aa9823485ea836b4ddbaeecd511bd4f51a8888a5cbc7ece1
+Section: Packaging
+Description: A modern APT package manager frontend
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+Name: Sileo
+Sileodepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: zebra
+Version: 1.1.40
+Architecture: iphoneos-arm64
+Maintainer: Zebra Team <team@getzbra.com>
+Installed-Size: 10064
+Depends: dpkg, uikittools, firmware (>= 15.0)
+Filename: debs/zebra.deb
+Size: 4107460
+MD5sum: 308a53c79f6ac2ffadc8381d5ed954e6
+SHA1: e3985f3e9a05b4c854aabb9b248f0e0e418b4974
+SHA256: cf206e4eface73032f316a63d3cb146d2f9684a60ea146b74f77656d50d1558f
+Section: Packaging
+Description: A Useful Package Manager
+Tag: compatible::15.0-16.6
+Author: Zebra Team <team@getzbra.com>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+Icon: file:///Applications/Zebra.app/AppIcon60x60@3x.png
+Name: Zebra
+Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
 
