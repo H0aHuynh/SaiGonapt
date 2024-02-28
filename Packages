@@ -22,7 +22,7 @@ Maintainer: Dhinak G <dhinak@dhinak.net>
 Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
 Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
 Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
-Filename: debs/ellekit_1.2_iphoneos-arm64.deb
+Filename: debs/ellekit.deb
 Size: 327608
 MD5sum: d1b479b2cf448a97429e7efab474fdc1
 SHA1: 1972b6031612a584309f44b5624b0f2b4fad8ddb
@@ -38,15 +38,15 @@ Package: essential
 Version: 2.0
 Architecture: iphoneos-arm64
 Essential: yes
-Maintainer: Procursus Team <support@procurs.us>
+Maintainer: HoaHuynh
 Installed-Size: 0
 Pre-Depends: bootstrap | dpkg (>= 1.19.0)
-Depends: sileo (>= 2.1) | zebra (>= 1.1.19) | installer (>= 5.1) | cydia | openssh-server
+Depends: sileo (>= 2.1) | zebra (>= 1.1.19) | org.coolstar.sileo (>= 2.1) | xyz.willy.zebra (>= 1.1.19) | me.apptapp.installer (>= 5.1) | cydia | openssh-server
 Filename: debs/essential.deb
-Size: 856
-MD5sum: 9d304df835c8fc3f7fc4c708116cbe8d
-SHA1: 4a7b4ab7578c622b01edc830128a206de3f4ad8d
-SHA256: fc0a73609340098393dd65a1823962235dd11e4dc12ca79740d36aa26125567d
+Size: 868
+MD5sum: b4409b8db7e3ad83c1ca848dc59fd173
+SHA1: e9dcc6828cfa82d4be236f56f977c60f1ede03af
+SHA256: c36f08f36c1777e66a7d3c88a38a5fefa98f0fd3d064ea29624c5a7f2ec832b9
 Section: System
 Priority: required
 Description: Virtual package to keep you safe from uninstalling important packages.
