@@ -34,6 +34,23 @@ Author: Evelyn
 Icon: https://ellekit.space/logos/logo.png
 Name: ElleKit
 
+Package: essential
+Version: 2.0
+Architecture: iphoneos-arm64
+Essential: yes
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 0
+Pre-Depends: bootstrap | dpkg (>= 1.19.0)
+Depends: sileo (>= 2.1) | zebra (>= 1.1.19) | installer (>= 5.1) | cydia | openssh-server
+Filename: debs/essential.deb
+Size: 856
+MD5sum: 9d304df835c8fc3f7fc4c708116cbe8d
+SHA1: 4a7b4ab7578c622b01edc830128a206de3f4ad8d
+SHA256: fc0a73609340098393dd65a1823962235dd11e4dc12ca79740d36aa26125567d
+Section: System
+Priority: required
+Description: Virtual package to keep you safe from uninstalling important packages.
+
 Package: sileo
 Version: 2.6
 Architecture: iphoneos-arm64
