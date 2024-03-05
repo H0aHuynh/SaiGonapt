@@ -18,15 +18,15 @@ Name: Cylinder Reborn
 Package: ellekit
 Version: 1.2
 Architecture: iphoneos-arm64
-Maintainer: Dhinak G <dhinak@dhinak.net>
+Maintainer: Hoà Huỳnh
 Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
 Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
 Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
 Filename: debs/ellekit.deb
-Size: 327608
-MD5sum: d1b479b2cf448a97429e7efab474fdc1
-SHA1: 1972b6031612a584309f44b5624b0f2b4fad8ddb
-SHA256: 791b4003677353dc8894cb572a6dfe61c642621c60cb16a0a95f8223924ed8eb
+Size: 337632
+MD5sum: 63bdd0c1a11d01de87ad4300ca7f0774
+SHA1: 8bfe2c63cb56c9efa5ec29df4abdf709df560356
+SHA256: cf3b9cdae0ed08976f02dab3943696c6c938def95464aecf8dd114a20c6720ce
 Section: Tweak Injection
 Priority: optional
 Description: ElleKit tweak injection libraries and loader
