@@ -51,6 +51,22 @@ Section: System
 Priority: required
 Description: Virtual package to keep you safe from uninstalling important packages.
 
+Package: fixsudo
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: Hoà Huỳnh
+Depends: firmware (>= 15.2)
+Filename: debs/fixsudo_1.1_iphoneos-arm64.deb
+Size: 43068
+MD5sum: be8fb6aa952f30f7e6e1c0ac027777fa
+SHA1: 297926f9996403585c9d190d9edcbe22dd8e922e
+SHA256: f8441aaa5bb8bd1eef6d73b8d7913dba694b0f8ce8a5c66a68c1d724c8e135dd
+Section: System
+Priority: standard
+Description: Fix setuid SaiGon15.x
+Author: Hoà Huỳnh
+Name: Fix sudo
+
 Package: sileo
 Version: 2.6
 Architecture: iphoneos-arm64
