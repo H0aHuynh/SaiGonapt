@@ -1,3 +1,21 @@
+Package: com.nan.bindfs
+Version: 0.4.1
+Architecture: iphoneos-arm64
+Maintainer: Hoà Huỳnh
+Depends: coreutils, sed, plutil, firmware (>> 14.0)
+Conflicts: mobilesubstrate (= 999)
+Filename: debs/com.nan.bindfs_0.4.1_iphoneos-arm64 (1).deb
+Size: 6724
+MD5sum: 2d78f285a0b7e2f0e11f4f8f6d8e1abd
+SHA1: 49d389d7f68225c049aeaa2aab772f3de4a98309
+SHA256: b8d9165f9463f1a120d7427eaf31d2456875010f1945e759fa5ba9d9418af73f
+Section: Terminal_Support
+Description: 以 bindfs 挂载文件夹的 cli 工具
+Author: 无尽伤痛都锁进黑夜 & zhaonan
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
+Name: mount_bindfs (SaiGon Remake)
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.json
+
 Package: com.ryannair05.cylinder2
 Version: 1.1.1
 Architecture: iphoneos-arm64
