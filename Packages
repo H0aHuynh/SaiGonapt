@@ -34,13 +34,32 @@ Icon: file:///Library/PreferenceBundles/CylinderSettings.bundle/Icon@3x.png
 Name: Cylinder Reborn
 
 Package: ellekit
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: debs/ellekit1.0.deb
+Size: 326384
+MD5sum: 4a5cdf10642bc6cd3919d95488f7a40a
+SHA1: 4fea543c0ec1a07b6d63e1744effc281ca96a7e8
+SHA256: 6134b005c099f422872650870f4611d79b67e16b8ee1c5673b77943dd8f4aef6
+Section: Tweak Injection
+Priority: optional
+Description: ElleKit tweak injection libraries and loader
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit
+
+Package: ellekit
 Version: 1.2
 Architecture: iphoneos-arm64
 Maintainer: Hoà Huỳnh
 Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
 Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
 Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
-Filename: debs/ellekit.deb
+Filename: debs/ellekit1.2.deb
 Size: 337632
 MD5sum: 63bdd0c1a11d01de87ad4300ca7f0774
 SHA1: 8bfe2c63cb56c9efa5ec29df4abdf709df560356
