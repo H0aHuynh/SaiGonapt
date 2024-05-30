@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -e
-
+rm -r Packages
+rm -r Packages.bz2
+rm -r Release
 dpkg-scanpackages -m -t deb debs > Packages
 bzip2 -z -c Packages > Packages.bz2
 rm -f Release
