@@ -72,6 +72,44 @@ Author: Evelyn
 Icon: https://ellekit.space/logos/logo.png
 Name: ElleKit
 
+Package: ellekit
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: debs/ellekit__iphoneos-arm64.deb
+Size: 350108
+MD5sum: 8ca0148e57ef68741a66bf0102375b83
+SHA1: 60bc8e861e63bf70c9dfd1d2b309683fbee5866d
+SHA256: 3388710d365e5a26a50abd16134ad0bb303921793643114174196cf57f2fccb3
+Section: Tweak Injection
+Priority: optional
+Description: ElleKit tweak injection libraries and loader
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit
+
+Package: ellekit
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: Hoà Huỳnh
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: debs/ellekit_1.4_iphoneos-arm64.deb
+Size: 350508
+MD5sum: 4b1d8e3a6f02a1f2f2739162520459a9
+SHA1: 00f29ee7d14055828cf84a1b4e1f1ca04ff5fc34
+SHA256: eeb4ad23b279fd3af5d498c02d537d2c4498b44d4cdfb8be0a8480d4506b8cc3
+Section: Tweak Injection
+Priority: optional
+Description: ElleKit tweak injection libraries and loader
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit
+
 Package: essential
 Version: 2.0
 Architecture: iphoneos-arm64
@@ -99,6 +137,23 @@ Size: 2906648
 MD5sum: 70399404e5512dc8d539e36c7db7cff7
 SHA1: 457de51930b35b6c8cacbce76e4c987a070ba917
 SHA256: 167b100a61b3b970aa9823485ea836b4ddbaeecd511bd4f51a8888a5cbc7ece1
+Section: Packaging
+Description: A modern APT package manager frontend
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+Name: Sileo
+Sileodepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: sileo
+Version: 2.7
+Architecture: iphoneos-arm64
+Maintainer: HoaHuynh
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: debs/sileo_2.7.deb
+Size: 2918968
+MD5sum: 49015e398e6bd563cfc48d28bfa405f1
+SHA1: 20299530a83e116e7cf7be4b2b44f9e2ca996a3c
+SHA256: 709e2f6cd2dd2dcadbc7743fe486abf3b125e5cb0458a53f76abb1586a528a19
 Section: Packaging
 Description: A modern APT package manager frontend
 Author: Amy While <me@anamy.gay>
