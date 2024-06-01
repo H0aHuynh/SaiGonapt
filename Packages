@@ -75,25 +75,6 @@ Name: ElleKit
 Package: ellekit
 Version: 1.4
 Architecture: iphoneos-arm64
-Maintainer: Dhinak G <dhinak@dhinak.net>
-Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
-Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
-Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
-Filename: debs/ellekit__iphoneos-arm64.deb
-Size: 350108
-MD5sum: 8ca0148e57ef68741a66bf0102375b83
-SHA1: 60bc8e861e63bf70c9dfd1d2b309683fbee5866d
-SHA256: 3388710d365e5a26a50abd16134ad0bb303921793643114174196cf57f2fccb3
-Section: Tweak Injection
-Priority: optional
-Description: ElleKit tweak injection libraries and loader
-Author: Evelyn
-Icon: https://ellekit.space/logos/logo.png
-Name: ElleKit
-
-Package: ellekit
-Version: 1.4
-Architecture: iphoneos-arm64
 Maintainer: Hoà Huỳnh
 Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
 Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
