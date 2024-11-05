@@ -1,3 +1,42 @@
+Package: com.creaturesurvive.libcscolorpicker
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: HoaHuynh
+Depends: firmware (>= 15.0), emt.paisseon.xinamine
+Conflicts: xyz.cypwn.libcscolorpicker
+Replaces: xyz.cypwn.libcscolorpicker
+Provides: com.creaturesurvive.libcscolorpicker (= 2.0)
+Filename: debs/com.creaturesurvive.libcscolorpicker_2.0_iphoneos-arm64.deb
+Size: 149096
+MD5sum: c081ca0dfe70c05247358b0fd49918ff
+SHA1: d25e1c9aae5c621a8462e5ff7b78036cc81e042a
+SHA256: 7fb38f29c24151c1087553ecc971be3065ef49cfb3f8b73122359a6407e35db9
+Section: System
+Description: A minimal color picker library for developers
+Author: CreatureSurvive
+Icon: file:///var/jb/Library/IconRepo/hethongg1.png
+Name: libCSColorPicker
+
+Package: com.miro.shortmoji
+Version: 4.7
+Architecture: iphoneos-arm64
+Maintainer: MiRO <tweaks_support@miro92.com>
+Installed-Size: 7112
+Depends: firmware (>=13.0), mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.11), applist, com.creaturesurvive.libcscolorpicker, emt.paisseon.xinamine
+Conflicts: com.cpdigitaldarkroom.barmoji, com.udevs.dockx, com.miro.rgboard, com.ya7yajb.shortmoji
+Filename: debs/com.miro.shortmoji_4.7_iphoneos-arm64.deb
+Size: 1329184
+MD5sum: a70e5a962ded982bd94a8baafb3039f2
+SHA1: 61a306d01390d0e9d17fce1f2132d395d99eddf5
+SHA256: 79b35d93ae2308c101e48bfc1d32f363c4273a9d5b3bf98c5ca9f7165f8d2b23
+Section: Tweaks
+Description: The ultimate keyboard tweak that iOS never had.
+Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
+Author: MiRO <tweaks_support@miro92.com>
+Depiction: https://miro92.com/repo/depictions/?p=com.miro.shortmoji
+Icon: file:////Library/PreferenceBundles/Shortmoji.bundle/Header.png
+Name: Shortmoji
+
 Package: com.ryannair05.cylinder2
 Version: 1.1.1
 Architecture: iphoneos-arm64
@@ -14,6 +53,25 @@ Description: Make your icons dance
 Author: Ryan Nair
 Icon: file:///Library/PreferenceBundles/CylinderSettings.bundle/Icon@3x.png
 Name: Cylinder Reborn
+
+Package: com.ryannair05.little12
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: Ryan Nair
+Installed-Size: 1028
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), emt.paisseon.xinamine
+Conflicts: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.duraidabdul.neptune
+Replaces: com.binksalex.fluidify, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
+Provides: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
+Filename: debs/com.ryannair05.little12_2.0_iphoneos-arm64.deb
+Size: 385656
+MD5sum: c82fc1724d802a01a88d3f6e2b6e6371
+SHA1: 54ded2c98fa01f8184cc8c59f4dc35f5a779d154
+SHA256: e77b3120771b5f9b2e75bf9a767983cc7bb69762a5dbc7aca037c7507f303eba
+Section: Tweaks
+Description: iPhone 12 gestures and more for iOS 14
+Author: Ryan Nair
+Name: Little12
 
 Package: ellekit
 Version: 1.0
@@ -160,6 +218,26 @@ Author: Amy While <me@anamy.gay>
 Icon: https://getsileo.app/img/icon.png
 Name: Sileo
 Sileodepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: xyz.cypwn.xinam1ne
+Version: 2.7
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate, firmware (>= 15.0), gawk, gzip, libclang-cpp16, llvm-16, llvm-16-runtime, file, odcctools, ldid, plutil, cy+cpu.arm64v8 | oldabi-xina | oldabi
+Replaces: emt.paisseon.xinamine
+Provides: emt.paisseon.xinamine (= 99)
+Filename: debs/xyz.cypwn.xinam1ne_2.7_iphoneos-arm64.deb
+Size: 1947436
+MD5sum: 107dcb16649e76b889c6fada6df1f98a
+SHA1: 4c3dcc25c91d7a44bb3f06adae3a00000688c702
+SHA256: 2399670e9b907542aa6d59519c45da4ea27fb6a1b85d04c264aed05b013f1987
+Section: Utilities
+Description: Xinamine Official All-in-One bundle. Convert rootful tweaks to rootless (and rootless to rootful) with ease using the Xinam1nePatcher in Filza or use the included Xinaf1re app.
+Author: Paisseon, Sudo, NoW4U2Kid, Kixrd
+Depiction: https://repo.cypwn.xyz/depiction/2628
+Icon: https://repo.cypwn.xyz/packages/Xinam1neAIO-Rootless/icon.png
+Name: Xinam1ne AIO
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2628
 
 Package: zebra
 Version: 1.1.40
