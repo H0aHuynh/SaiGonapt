@@ -168,6 +168,25 @@ Author: Evelyn
 Icon: https://ellekit.space/logos/logo.png
 Name: ElleKit
 
+Package: ellekit
+Version: 1.6
+Architecture: iphoneos-arm64
+Maintainer: Hòa Huỳnh
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: debs/ellekit_1.6_iphoneos-arm64.deb
+Size: 331512
+MD5sum: 97c7d2ad7ec95ca8e40c5a58b2d57c20
+SHA1: 54c14cbf1fc7699b7a0626bc0f6b54864a1052b1
+SHA256: 4e6487afc16d7634c8ef58151b3e6251c1c0713644e92ae64eb5dd6e12e62162
+Section: Tweak Injection
+Priority: optional
+Description: ElleKit tweak injection libraries and loader
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit
+
 Package: essential
 Version: 2.0
 Architecture: iphoneos-arm64
@@ -184,6 +203,23 @@ SHA256: c36f08f36c1777e66a7d3c88a38a5fefa98f0fd3d064ea29624c5a7f2ec832b9
 Section: System
 Priority: required
 Description: Virtual package to keep you safe from uninstalling important packages.
+
+Package: org.coolstar.sileo
+Version: 2.8
+Architecture: iphoneos-arm64
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: debs/org.coolstar.sileo_2.8_iphoneos-arm64.deb
+Size: 2719904
+MD5sum: 4f24dac0f4bcd5ad155577cd395ec553
+SHA1: 1f10d62fe6b7f7538fba90e3c71fc3badd3f7a3c
+SHA256: 4b63b785e67577927cad73548de479cdfd0c07a27c2a3f9a6c00ce66f57d8207
+Section: Packaging
+Description: A modern APT package manager frontend
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+Name: Sileo
+Sileodepiction: https://featuredpage.getsileo.app/depiction.json
 
 Package: sileo
 Version: 2.6
